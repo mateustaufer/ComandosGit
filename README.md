@@ -8,15 +8,14 @@ git init <projeto>
 #cria um arquivo
 touch <arquivo>
 
-#cria um um ponto na história do arquivo
+#adiciona as alterações no ponto da história do arquivo
 git add <arquivo>
 
 #faz o commit do ponto
 git commit -m "observação que pode ser adicionado ao commit"
 
-#mostra todos os commits de um arquivo
+#mostra todos os commits de um arquivo (se não usar o nome do arquivo ele traz o log de todos os arquivos do diretório)
 git log <arquivo>
 
 #mostra o status dos arquivos da pasta (o que foi modificado)
 git status
-
