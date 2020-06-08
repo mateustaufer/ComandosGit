@@ -46,3 +46,6 @@ git remote -v
 
 #enviar o projeto pro repositorio pela primeira vez
 git push -u origin master
+
+#demais commits
+git push
