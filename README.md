@@ -37,3 +37,12 @@ git merge <branch>
 
 #deletar a branch
 git branch -D <branch>
+
+#mandar para o GitHub
+git remote add origin https://github.com/mateustaufer/<repositorio>.git
+
+#mostrar os repositorios remotos
+git remote -v
+
+#enviar o projeto pro repositorio pela primeira vez
+git push -u origin master
